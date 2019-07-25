@@ -1,0 +1,14 @@
+{
+    "region": "eu-west-2",
+    "userPool": "eu-west-2_z1Go5XdrZ",
+    "userPoolBaseUri": "https://auth-cognito-demo.arronharden.com",
+    "clientId": "4tnp4k64d5v4ah9dud3pj1kbs0",
+    "callbackUri": "http://localhost:3000/callback",
+    "signoutUri": "http://localhost:3000",
+    "tokenScopes": [
+        "openid",
+        "email",
+        "profile",
+        "https://cognito-demo-api.arronharden.com/hello-world.all"                
+    ]
+  }
