@@ -10,5 +10,6 @@
         "email",
         "profile",
         "https://cognito-demo-api.arronharden.com/hello-world.all"                
-    ]
+    ],
+    "apiUri": "https://cognito-demo-api.arronharden.com"
 }

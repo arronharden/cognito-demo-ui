@@ -23,6 +23,14 @@
   color: #61dafb;
 }
 
+.Home-api-response {
+  margin-top: 10px;
+  width: 50%;
+  background-color: #434d63;
+  display: inline-block;
+  font-family: 'Lucida Console', monospace
+}
+
 @keyframes Home-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,6 +1,6 @@
 import { CognitoAuth } from 'amazon-cognito-auth-js/dist/amazon-cognito-auth'
 import { CognitoUserPool } from 'amazon-cognito-identity-js'
-import { config as AWSConfig, CognitoIdentityCredentials } from 'aws-sdk'
+import { config as AWSConfig } from 'aws-sdk'
 import appConfig from '../config/app-config.json'
 
 AWSConfig.region = appConfig.region
@@ -65,17 +65,14 @@ const getCognitoSession = () => {
         return
       }
 
-      console.debug('Successfully got session: ' + JSON.stringify(result))
-      const poolUrl = `${appConfig.userPoolBaseUri}/${appConfig.userPool}`
-      const credentials = new CognitoIdentityCredentials({
-        Logins: {
-          [poolUrl]: result.idToken.jwtToken
-        }
-      })
-
       // Resolve the promise with the session credentials
+      console.debug('Successfully got session: ' + JSON.stringify(result))
       const session = {
-        credentials,
+        credentials: {
+          accessToken: result.accessToken.jwtToken,
+          idToken: result.idToken.jwtToken,
+          refreshToken: result.refreshToken.token
+        },
         user: {
           userName: result.idToken.payload['cognito:username'],
           email: result.idToken.payload.email
