@@ -77,7 +77,8 @@ class Home extends Component {
           <div className="Home-details">
             <hr></hr>
             <div className="Home-details-links">
-              This example application shows how to integrate AWS Cognito into a React single-page application and how to use Cognito issued JWT access codes to secure backend Express based Node.js REST APIs. More <a href="https://arronharden.com">about me</a>.
+              This example application was written by Arron Harden and shows how to integrate AWS Cognito with a React single-page application and how to use Cognito issued JWT access codes to secure backend Express based Node.js REST APIs.
+              More information about me can be found on my profile at <a href="https://arronharden.com">https://arronharden.com</a>.
               <p></p>
               See my medium.com posts for more information:
               <ul>

@@ -1,4 +1,4 @@
-This application was created from the create-react-app script, and demonstrates how to integrate the AWS Cognito hosted / built in sign-in and sign-up UI content with a React application. See [my article](https://medium.com/@arron.harden/aws-cognito-example-using-react-ui-and-node-js-rest-apis-part-2-react-ui-app-with-redux-6cc22610affe) on medium.com for more information.
+This application was created from the create-react-app script, and demonstrates how to integrate the AWS Cognito hosted / built in sign-in and sign-up UI content with a React application. See my article [AWS Cognito example using React UI and Node.js REST APIs — part 2 (React UI app with Redux)](https://medium.com/@arron.harden/aws-cognito-example-using-react-ui-and-node-js-rest-apis-part-3-jwt-secured-rest-apis-e56d336ce306) for more information.
 
 ## Running the application
 
@@ -12,3 +12,6 @@ This application will attempt to invoke a simple example REST API using the JWT 
 
 ## Example
 A running instance of this React application is hosted at https://cognito-demo.arronharden.com.
+
+## About me
+I'm a cloud/SaaS architect and lead full stack engineer, living in Milton Keynes (UK). More information about me can be found on my profile at https://arronharden.com.
