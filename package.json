@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "description": "Example React based UI for my medium.com article on using the AWS Cognito built in sign-in and sign-up content. Demonstrates a React router implementation of the callback endpoint, a Redux based credential store, as well as use of the AWS provided libraries.",
-  "homepage": "https://medium.com/@arron.harden/aws-cognito-example-using-react-ui-and-node-js-rest-apis-part-2-react-ui-app-with-redux-6cc22610affe",  
+  "homepage": "https://cognito-demo.arronharden.com",  
   "author": {
     "name": "Arron Harden",
     "email": "post@arronharden.com",
