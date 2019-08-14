@@ -6,3 +6,6 @@ This application was created from the create-react-app script, and demonstrates 
 2. Run `npm install` to setup and install the dependencies.
 3. Run `npm start` to start the application.
 4. A browser session should automatically open, pointing at `http:localhost:3000`.
+
+## Example
+See this application hosted at https://cognito-demo.arronharden.com.
