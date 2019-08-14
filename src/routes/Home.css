@@ -39,3 +39,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Home-details {
+  margin-top: 2em;
+  font-size: 14px;
+  max-width: 50%;
+}
+.Home-details a {
+  color: #61dafb;
+}
+.Home-details-links {
+  text-align: left;
+  display: inline-block;
+}

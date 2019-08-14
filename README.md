@@ -7,5 +7,8 @@ This application was created from the create-react-app script, and demonstrates 
 3. Run `npm start` to start the application.
 4. A browser session should automatically open, pointing at `http:localhost:3000`.
 
+## JWT secured REST API service
+This application will attempt to invoke a simple example REST API using the JWT access code returned in the callback from Cognito. See the repo at https://github.com/arronharden/cognito-demo-service for the implementation of this REST API. A running instance of this REST API is hosted at https://cognito-demo-api.arronharden.com. 
+
 ## Example
-See this application hosted at https://cognito-demo.arronharden.com.
+A running instance of this React application is hosted at https://cognito-demo.arronharden.com.
